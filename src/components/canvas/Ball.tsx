@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
@@ -20,7 +21,6 @@ const Ball = (props) => {
         <icosahedronGeometry args={[1, 6]} />
         <meshStandardMaterial
           color="#fff8eb"
-          polygonOffset
           polygonOffset={-5}
           flatShading
         />

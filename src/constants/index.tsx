@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
   mobile,
   backend,
@@ -158,12 +160,14 @@ const experiences = [
   },
   {
     title: "Autonomous Drone Perception System Assistant Researcher",
-    company_name: "UIUC Advanced Controls Research Laboratory (AVIATE)",
+    company_name: "UIUC Advanced Controls Research Laboratory (Multi-Rotor Platform)",
     icon: uiuc,
     iconBg: "#0D2E53",
-    date: "Mar 2023 - Present",
+    date: "Agu 2023 - Present",
     points: [
-      "Reasearch and develop light weight computer vision model for drone to be used to navigate 3D space",
+      "Working with Prof. Naira Hovakimyan in the Advanced Controls Research Laboratory as an undergraduate research assistant, focusing on advancing autonomous drone perception systems.",
+      "Developed depth perception and contribute to safe path planning using stereo cameras. ",
+      "Designed and executed experiments using the AirSim simulation platform to validate and refine the performance of the developed perception and planning algorithms.",
     ],
   },
 ];

@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const textVariant = (delay) => {
   return {
     hidden: {
