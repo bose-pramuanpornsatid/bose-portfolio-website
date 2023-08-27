@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 // import { HashRouter } from "react-router-dom";
 import App from "./App.tsx";
 import "./index.css";
-import reportWebVitals from "./reportWebVitals";
+// import reportWebVitals from "./reportWebVitals";
 
 // ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 //   <React.StrictMode>
@@ -20,4 +20,4 @@ root.render(
   </React.StrictMode>
 );
 
-reportWebVitals();
+// reportWebVitals();

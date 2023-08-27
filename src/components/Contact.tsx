@@ -36,18 +36,18 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-16 rounded-2xl'
+        className='flex-[0.75] bg-black-100 p-16 rounded-2xl xs:p-8'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-        <div className="flex flex-row justify-center">
-          <img className="xl:w-60 xl:h-60 sm:w-40 sm:h-40 xs:w-24 xs:h-24 rounded-full" src={profile} alt="Rounded avatar"/>
-          <div className="flex flex-col pl-8 justify-center gap-4">
+        <div className="flex sm:flex-row sm:justify-center xs:flex-col">
+          <img className="xl:w-80 xl:h-80 sm:w-60 sm:h-60 xs:my-4 xs:w-full rounded-full object-cover object-center" src={profile} alt="Rounded avatar" />
+          <div className="flex flex-col justify-center gap-6 xl:mx-20 xl:w-1/3 sm:w-3/5 sm:mx-8 xs:w-full xs:px-0">
             <a href="https://www.linkedin.com/in/bose-pramuanpornsatid/">
-              <img class="w-80" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
+              <img class="xs:w-full" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" />
             </a>
             <a href="https://github.com/bose-pramuanpornsatid">
-              <img class="w-80" src="https://img.shields.io/badge/GitHub-001724?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+              <img class="xs:w-full" src="https://img.shields.io/badge/GitHub-001724?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
             </a>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.3, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex xl:h-[600px] md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
       </motion.div>
