@@ -50,3 +50,15 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# firebase
+.idea
+**/node_modules/*
+**/.firebase
+**/.firebaserc
+**/.runtimeconfig.json
+*/npm-debug.log
+lerna-debug.log
+*~
+service-account-credentials.json
+**/package-lock.json

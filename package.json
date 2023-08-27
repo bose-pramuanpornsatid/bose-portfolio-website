@@ -1,12 +1,12 @@
 {
-  "homepage": "https://bose-pramuanpornsatid.github.io/3d-portfolio",
+  "homepage": "https://portfolio-11d40.web.app/",
   "name": "-3d-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "firebase deploy",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

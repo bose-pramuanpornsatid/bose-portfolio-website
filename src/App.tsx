@@ -1,5 +1,7 @@
+// @ts-nocheck
 // import { useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
+import { HashRouter as BrowserRouter } from "react-router-dom";
 
 import {
   About,
@@ -24,11 +26,11 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
-        <Feedbacks />
+        {/* <Works /> */}
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
