@@ -55,7 +55,7 @@ const About = () => {
         I’m driven by a relentless curiosity and a deep enthusiasm for engineering solutions that push the boundaries of innovation. My diverse experiences have shaped me into a versatile professional with expertise in camera system design and software development.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-normal md:justify-center xs:justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
