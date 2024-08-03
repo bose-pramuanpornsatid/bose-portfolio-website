@@ -18,6 +18,7 @@ import {
   figma,
   docker,
   astroberry,
+  cubesat,
   precisionplanting,
   founders,
   aviate,
@@ -58,11 +59,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI & Computer Vision",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Camera System",
     icon: creator,
   },
 ];
@@ -124,6 +125,57 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Machine Learning Computer Vision Engineering Intern",
+    company_name: "AGCO - Precision Planting",
+    icon: precisionplanting,
+    iconBg: "#65422C",
+    date: "Oct 2022 - Present",
+    points: [
+      "React Native / Swift UIKit Frontend Design: Developed the frontend interface using both React Native with Swift UIkit which enhances user interaction with the agricultural data platform mobile app.",
+      "User Interface and Experience Optimization: Engineered new camera systems and user interfaces to facilitate better interaction between farmers and farming machinery, improving accessibility and usability of precision agriculture data.",
+      "Augmented Reality and Machine Learning: Improved user interaction within an augmented reality system using iOS ARKit, Core ML, and Swift UIkit for precise analysis of crop emergence and vital agricultural metrics.",
+      "Embedded Systems Integration: Developed a robust agricultural product testing automation QA tool that interfaces with embedded systems using CAN bus, Linux Sockets, and SocketIO.",
+      "Full-Stack System Development: Actively working on integrating a C++ system-wide controller with Node"
+    ],
+  },
+  {
+    title: "Software Engineer R&D",
+    company_name: "Founders",
+    icon: founders,
+    iconBg: "#FFEAD1",
+    date: "Feb 2023 - Present",
+    points: [
+      "Conducted user research to identify entrepreneurial networking pain points, driving the Figma design and development of a co-founder matching platform that allow entrepreneurial minded people to find members and kickstart their startup.",
+      "Develop website platform from the ground up using React and Tailwind CSS for the UI, Django for backend",
+    ],
+  },
+  {
+    title: "Autonomous Drone Perception System Assistant Researcher",
+    company_name: "UIUC Advanced Controls Research Laboratory (Multi-Rotor Platform)",
+    icon: uiuc,
+    iconBg: "#0D2E53",
+    date: "Aug 2023 - Present",
+    points: [
+      "Working with Prof. Naira Hovakimyan in the Advanced Controls Research Laboratory as an undergraduate research assistant, focusing on advancing autonomous drone perception systems.",
+      "Utilize ROS for onboard data collection and train/verify flight algorithms in python using gathered depth perception data from stereo cameras.",
+      "Designed and executed experiments using the AirSim and Gazebo simulation platform to validate and refine the performance of the developed perception and planning algorithms."
+    ],
+  },
+  {
+    title: "Head of Payload and Command & Data Handling Subsystem",
+    company_name: "BCCSAT-1 Satellite - Launched into low earth orbit on March 22, 2021",
+    icon: cubesat,
+    iconBg: "#0D2E53",
+    date: "May 2018 - Dec 2023",
+    points: [
+      "Pioneered the world's first 1U CubeSat capable of multispectral imaging for precision agriculture and image sensing.",
+      "Developed and configured the 2x2 array of onboard cameras and filters using only off-the-shelf components capable of capturing multispectral images and performing image sensing.",
+      "Developed NDVI & NDRE image processing algorithm to calculate the relative biomass of the vegetations in the area for precision agriculture and geographical survey of water sources, city boundaries, and agriculture/vegetation.",
+      "Programmed, designed, and assembled on-board computer capable of managing 6 subsystems, FRAM and central memories mapping, data transmission using AX.25 packet format, error management, and firmware upgrade.",
+
+    ],
+  },
+  {
     title: "Satellite Software & Payload System Researcher",
     company_name: "AstroBerry",
     icon: astroberry,
@@ -134,68 +186,17 @@ const experiences = [
       "Engineered a biomass heatmap image format that allows for a more intuitive interpretation of crop, vegetation, and soil nitrogen level.",
       "Refined the design of camera and signal processing embedded system for small satellite with Dr. Phongsatorn Saisutjarit by revising on previously successful small satellite subsystems and innovating new technical designs to prevent failures from prior systems.",
     ],
-  },
-  {
-    title: "Machine Learning Computer Vision Engineering Intern",
-    company_name: "AGCO - Precision Planting",
-    icon: precisionplanting,
-    iconBg: "#65422C",
-    date: "Oct 2022 - Present",
-    points: [
-      "Engineer new camera system, user interface design, and user experience design that enables better interaction between farmer, farming machinery, and precision agriculture data.",
-      "Improve computer vision in augmented reality system and machine learning for the analysis of crop emergence and numerous crop metric for precision agriculture using ARKit and Core ML.",
-      "•\tDesign the front-end using React Native and enhance back-end data structure for cloud syncing to AWS’s S3, DynamoDB, and Lambda for a mobile application use for the analysis of crop for precision agriculture.",
-    ],
-  },
-  {
-    title: "Software Engineer R&D",
-    company_name: "Founders",
-    icon: founders,
-    iconBg: "#FFEAD1",
-    date: "Feb 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Design and develop a co-founder matching platform using React for Illinois Entrepreneurship Center that allow entrepreneurial minded people to find members and kickstart their startup.",
-    ],
-  },
-  {
-    title: "Autonomous Drone Perception System Assistant Researcher",
-    company_name: "UIUC Advanced Controls Research Laboratory (Multi-Rotor Platform)",
-    icon: uiuc,
-    iconBg: "#0D2E53",
-    date: "Agu 2023 - Present",
-    points: [
-      "Working with Prof. Naira Hovakimyan in the Advanced Controls Research Laboratory as an undergraduate research assistant, focusing on advancing autonomous drone perception systems.",
-      "Developed depth perception and contribute to safe path planning using stereo cameras. ",
-      "Designed and executed experiments using the AirSim simulation platform to validate and refine the performance of the developed perception and planning algorithms.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Lorem Ipsum.",
+    name: "Lorem",
+    designation: "Lorem",
+    company: "Lorem",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 

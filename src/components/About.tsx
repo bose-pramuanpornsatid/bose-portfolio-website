@@ -38,7 +38,11 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
+    
     <>
+        {/* <a href="./face/bose.usdz" rel="ar">
+          <img src="./bose_logo.png" alt="Name of your model" />
+        </a> */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -48,11 +52,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 max-w-3xl text-[17px] leading-[30px] text-secondary"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m driven by a relentless curiosity and a deep enthusiasm for engineering solutions that push the boundaries of innovation. My diverse experiences have shaped me into a versatile professional with expertise in camera system design and software development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

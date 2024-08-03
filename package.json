@@ -5,6 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "predeploy": "npm run build",
     "deploy": "firebase deploy",
     "dev": "vite",
@@ -16,6 +17,7 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.68.3",
     "@react-three/fiber": "^8.13.0",
+    "firebase": "^10.7.2",
     "framer-motion": "^10.12.12",
     "maath": "^0.5.3",
     "prettier-plugin-tailwindcss": "^0.3.0",

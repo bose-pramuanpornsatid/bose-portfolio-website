@@ -11,6 +11,17 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "headers": [
+      {
+        "source": "**/*.usdz",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "model/vnd.usdz+zip"
+          }
+        ]
+      }
     ]
   }
 }

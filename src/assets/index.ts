@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import astroberry from "./company/astroberry.png";
+import cubesat from "./company/CubeSatFuturisticLogo.png";
 import precisionplanting from "./company/precisionplanting.png";
 import founders from "./company/founders.png";
 import aviate from "./company/aviate.jpg";
@@ -61,6 +62,7 @@ export {
   typescript,
   threejs,
   astroberry,
+  cubesat,
   precisionplanting,
   profile,
   founders,
