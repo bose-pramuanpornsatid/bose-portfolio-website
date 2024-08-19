@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
+        // primary: "#050816",
+        primary: "#020300",
         secondary: "#aaa6c3",
         tertiary: "#151030",
         "black-100": "#100d25",
@@ -19,7 +20,7 @@ export default {
         xs: "320px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/herobg.jpg')",
       },
     },
   },
