@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       {/* Scroll Animation Icon */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
